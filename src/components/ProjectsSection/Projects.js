@@ -11,15 +11,20 @@ import {
   Mark,
   ProjectCont,
   ProjectImg,
+  PWrap,
   Topline,
 } from './ProjectsStyle';
 
 const Projects = () => {
+
+
+
   return (
     <>
       {projectsList.map((data, key) => {
         return (
-          <ProjectCont key={key}>
+          <PWrap>
+          <ProjectCont key={key} href={data.git}> 
             <ProjectImg>
               <ImgD src={data.imgDesktop} alt={data.alt} />
               <ImgM src={data.imgMobile} alt={data.alt} />
@@ -35,12 +40,12 @@ const Projects = () => {
               <DescWrap>
                 <Decription>{data.description}</Decription>
                 <DevTools>
-                  Languages:
+                  Tools:
                   <p>{data.languages}</p>
                 </DevTools>
               </DescWrap>
             </Detail>
-          </ProjectCont>
+          </ProjectCont></PWrap>
         );
       })}
     </>

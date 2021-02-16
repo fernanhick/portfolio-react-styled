@@ -7,7 +7,7 @@ export const NavbarContainer = styled.nav`
 	color: white;
 	width: 100%;
 	min-height: 3em;
-	backdrop-filter: blur(10px) grayscale(0.5) opacity(0.8);
+	backdrop-filter: blur(10px) grayscale(0.2) opacity(0.9);
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
@@ -15,7 +15,7 @@ export const NavbarContainer = styled.nav`
 	box-shadow: 0 0 15px;
 	margin-bottom: 10px;
 	box-shadow: 0 0 15px 1px, inset 0 -5px 5px -3px black;
-s
+
 `
 
 export const GitLogo = styled(Github)`
@@ -41,7 +41,7 @@ export const NavIconCont = styled.div`
 	align-items: center;
 	margin-right: 1em;
 `
-export const NavIcon = styled.div`
+export const NavIcon = styled.a`
 	width: 3em;
 `
 export const LogoLink = styled(LinkS)``

@@ -1,17 +1,20 @@
-import React from 'react';
-import Projects from './Projects';
-import {ProjectsContainer} from './ProjectsElements';
+import React from "react"
+import Projects from "./Projects"
+import { PHeader, PHeaderW, ProjectsContainer } from "./ProjectsElements"
+import { PWrap } from "./ProjectsStyle"
 
-import {SectionsHeader} from '../SectionsHeaderStyle';
 const ProjectsSection = () => {
-  return (
-    <>
-      <SectionsHeader>Projects</SectionsHeader>
-      <ProjectsContainer id='projects'>
-        <Projects />
-      </ProjectsContainer>
-    </>
-  );
-};
+	return (
+		<>
+			{" "}
+			<PHeaderW>
+				<PHeader>Projects</PHeader>
+			</PHeaderW>
+				<ProjectsContainer id="projects">
+					<Projects />
+				</ProjectsContainer>
+		</>
+	)
+}
 
-export default ProjectsSection;
+export default ProjectsSection

@@ -29,8 +29,8 @@ function Navbar() {
 					</MenuItem>
 				</MenuCont>
 				<NavIconCont>
-					<NavIcon>
-						<GitLogo href="https://github.com/fernanhick" />
+					<NavIcon href="https://github.com/fernanhick" >
+						<GitLogo />
 					</NavIcon>
 				</NavIconCont>
 			</NavbarContainer>
