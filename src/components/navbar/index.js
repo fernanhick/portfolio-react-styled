@@ -8,14 +8,14 @@ import {
 	MenuLink,
 	NavIconCont,
 	NavIcon,
+	GitLogo,
 } from "./NavbarElements"
 
 function Navbar() {
 	return (
-		<div>
 			<NavbarContainer>
 				<LogoCont>
-					<LogoLink>Logo</LogoLink>
+					<LogoLink>FernandoAFH</LogoLink>
 				</LogoCont>
 				<MenuCont>
 					<MenuItem>
@@ -29,10 +29,11 @@ function Navbar() {
 					</MenuItem>
 				</MenuCont>
 				<NavIconCont>
-					<NavIcon></NavIcon>
+					<NavIcon>
+						<GitLogo href="https://github.com/fernanhick" />
+					</NavIcon>
 				</NavIconCont>
 			</NavbarContainer>
-		</div>
 	)
 }
 

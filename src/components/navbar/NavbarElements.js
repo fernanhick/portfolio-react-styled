@@ -1,17 +1,28 @@
 import styled from "styled-components"
 import { Link as LinkS } from "react-scroll"
-
+import { Link as LinkR } from "react-router-dom"
+import { Github } from "@styled-icons/entypo-social/Github"
 export const NavbarContainer = styled.nav`
 	position: fixed;
-	
+	color: white;
 	width: 100%;
-	height: 3em;
-	backdrop-filter: blur(10px) grayscale(0.5) opacity(0.8);	display: flex;
+	min-height: 3em;
+	backdrop-filter: blur(10px) grayscale(0.5) opacity(0.8);
+	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
 	z-index: 999;
 	box-shadow: 0 0 15px;
+	margin-bottom: 10px;
+	box-shadow: 0 0 15px 1px, inset 0 -5px 5px -3px black;
+s
 `
+
+export const GitLogo = styled(Github)`
+	color: white;
+	filter: drop-shadow(0.7px 2.3px 1px black );
+`
+
 export const LogoCont = styled.div`
 	display: flex;
 	justify-self: start;
@@ -19,15 +30,21 @@ export const LogoCont = styled.div`
 	align-items: center;
 	z-index: 10;
 	padding: 0rem 1.2rem;
+	min-width: 15%;
 `
 
-export const NavIconCont = styled.div``
+export const NavIconCont = styled.div`
+	cursor: pointer;
+	display: flex;
+	width: 2em;
+	justify-content: center;
+	align-items: center;
+	margin-right: 1em;
+`
 export const NavIcon = styled.div`
 	width: 3em;
 `
-export const LogoLink = styled(LinkS)`
-	font-size: 1.6rem;
-`
+export const LogoLink = styled(LinkS)``
 
 export const MenuCont = styled.ul`
 	width: 100%;
@@ -53,9 +70,11 @@ export const MenuItem = styled.li`
 	justify-content: center;
 	transition: all 0.2s ease-in;
 	&:hover {
-		background-color: rgba(0, 0, 0, 0.2);
-
-		border-bottom: solid 2px rgba(0, 0, 0, 1);
+		background: linear-gradient(
+			180deg,
+			rgba(0, 0, 0, 0.1) 18%,
+			rgba(0, 48, 48, 0.2) 81%
+		);
 	}
 `
 export const MenuLink = styled(LinkS)`
