@@ -15,12 +15,15 @@ export const NavbarContainer = styled.nav`
 	box-shadow: 0 0 15px;
 	margin-bottom: 10px;
 	box-shadow: 0 0 15px 1px, inset 0 -5px 5px -3px black;
-
 `
 
 export const GitLogo = styled(Github)`
 	color: white;
-	filter: drop-shadow(0.7px 2.3px 1px black );
+	filter: drop-shadow(0.7px 2.3px 1px black);
+
+	&:hover {
+		color: rgba(0, 0, 0, 0.4);
+	}
 `
 
 export const LogoCont = styled.div`

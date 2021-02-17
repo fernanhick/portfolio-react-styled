@@ -1,17 +1,21 @@
-import './App.css';
-import Footer from './components/footer';
-import HeroSection from './components/herosection';
-import Navbar from './components/navbar';
-import ProjectsSection from './components/ProjectsSection/Index';
+import "./App.css"
+import Footer from "./components/footer"
+import HeroSection from "./components/herosection"
+import Navbar from "./components/navbar"
+import ProjectsSection from "./components/ProjectsSection/Index"
+import { BrowserRouter as Router } from "react-router-dom"
+
 function App() {
-  return (
-    <>
-    <Navbar/>
-    <HeroSection />
-    <ProjectsSection />
-    <Footer/>
-    </>
-  );
+	return (
+		<>
+			<Router>
+				<Navbar />
+				<HeroSection />
+				<ProjectsSection />
+				<Footer />
+			</Router>
+		</>
+	)
 }
 
-export default App;
+export default App

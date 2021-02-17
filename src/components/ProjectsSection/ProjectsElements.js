@@ -6,7 +6,7 @@ export const ProjectsContainer = styled.section`
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
-	padding-top: 2em;
+	padding-top: 1.7em;
 	margin-bottom: 30px;
 	@media screen and (max-width: 789px) {
 		min-width: 90%;
@@ -14,6 +14,7 @@ export const ProjectsContainer = styled.section`
 `
 export const PHeaderW = styled.div`
 	background: rgba(255, 94, 2, 1);
+	width:100vw;
 	height: 70px;
 	display: flex;
 	margin-top: 20px;

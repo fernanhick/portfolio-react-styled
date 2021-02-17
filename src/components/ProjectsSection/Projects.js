@@ -29,7 +29,7 @@ const Projects = () => {
               <ImgD src={data.imgDesktop} alt={data.alt} />
               <ImgM src={data.imgMobile} alt={data.alt} />
             </ProjectImg>
-            <Detail>
+            <Detail href={data.git}>
               {data.dev === 'true' ? (
                 <Mark style={{background: 'green'}}>Working</Mark>
               ) : (

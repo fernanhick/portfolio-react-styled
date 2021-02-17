@@ -6,13 +6,12 @@ import { PWrap } from "./ProjectsStyle"
 const ProjectsSection = () => {
 	return (
 		<>
-			{" "}
-			<PHeaderW>
-				<PHeader>Projects</PHeader>
-			</PHeaderW>
-				<ProjectsContainer id="projects">
-					<Projects />
-				</ProjectsContainer>
+			<ProjectsContainer id="projects">
+				<PHeaderW>
+					<PHeader>Projects</PHeader>
+				</PHeaderW>
+				<Projects />
+			</ProjectsContainer>
 		</>
 	)
 }

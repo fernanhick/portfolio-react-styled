@@ -11,7 +11,7 @@ import {
 function HeroSection() {
 	return (
 		<>
-			<HeroContainer>
+			<HeroContainer id="home">
 				<HeroWrapper>
 					<HeroHeader>Welcome</HeroHeader>
 					<HeroTitle className="box">I'm Fernando A F Hickman</HeroTitle>

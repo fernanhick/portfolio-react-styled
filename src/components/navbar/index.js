@@ -13,27 +13,51 @@ import {
 
 function Navbar() {
 	return (
-			<NavbarContainer>
-				<LogoCont>
-					<LogoLink>FernandoAFH</LogoLink>
-				</LogoCont>
-				<MenuCont>
-					<MenuItem>
-						<MenuLink to="home">Home</MenuLink>
-					</MenuItem>
-					<MenuItem>
-						<MenuLink to="projects">Projects</MenuLink>
-					</MenuItem>
-					<MenuItem>
-						<MenuLink to="about">About</MenuLink>
-					</MenuItem>
-				</MenuCont>
-				<NavIconCont>
-					<NavIcon href="https://github.com/fernanhick" >
-						<GitLogo />
-					</NavIcon>
-				</NavIconCont>
-			</NavbarContainer>
+		<NavbarContainer>
+			<LogoCont>
+				<LogoLink>FernandoAFH</LogoLink>
+			</LogoCont>
+			<MenuCont>
+				<MenuItem>
+					<MenuLink
+						to="home"
+						smooth={true}
+						duration={500}
+						spy={true}
+						exact="true"
+					>
+						Home
+					</MenuLink>
+				</MenuItem>
+				<MenuItem>
+					<MenuLink
+						to="projects"
+						smooth={true}
+						duration={500}
+						spy={true}
+						exact="true"
+					>
+						Projects
+					</MenuLink>
+				</MenuItem>
+				<MenuItem>
+					<MenuLink
+						to="about"
+						smooth={true}
+						duration={500}
+						spy={true}
+						exact="true"
+					>
+						About
+					</MenuLink>
+				</MenuItem>
+			</MenuCont>
+			<NavIconCont>
+				<NavIcon href="https://github.com/fernanhick">
+					<GitLogo />
+				</NavIcon>
+			</NavIconCont>
+		</NavbarContainer>
 	)
 }
 
