@@ -1,7 +1,7 @@
 import React from "react"
 import Projects from "./Projects"
 import { PHeader, PHeaderW, ProjectsContainer } from "./ProjectsElements"
-import { PWrap } from "./ProjectsStyle"
+
 
 const ProjectsSection = () => {
 	return (

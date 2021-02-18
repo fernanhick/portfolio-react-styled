@@ -3,12 +3,16 @@ import { Link as LinkS } from "react-scroll"
 import { Link as LinkR } from "react-router-dom"
 import { Github } from "@styled-icons/entypo-social/Github"
 export const NavbarContainer = styled.nav`
-	position: fixed;
 	color: white;
 	width: 100%;
 	min-height: 3em;
-	backdrop-filter: blur(10px) grayscale(0.2) opacity(0.9);
 	display: flex;
+	background: linear-gradient(
+		158deg,
+		rgba(255, 94, 2, 1) 23%,
+		rgba(233, 213, 47, 1) 68%,
+		rgba(98, 5, 168, 1) 90%
+	);
 	justify-content: space-between;
 	flex-wrap: wrap;
 	z-index: 999;
