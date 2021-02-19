@@ -43,14 +43,14 @@ export const ProjectCont = styled.div`
 
 export const Mark = styled.div`
 	position: relative;
-	height: 2em;
+	height: 1.2em;
 	width: 210px;
 	font-size: 1.1rem;
 	color: white;
 	top: 1.3em;
-	left: -6em;
+	left: -4em;
 	text-align: center;
-	padding-top: 0.3rem;
+	padding-top: 0.1rem;
 	box-shadow: 0px 7px 15px black;
 	transform: rotate(-45deg);
 `
@@ -59,9 +59,9 @@ export const ProjectImg = styled.div`
 	width: 400px;
 	min-width: 120px;
 	display: flex;
-	border-radius: 5px;
-	margin: 0.5rem;
-`
+	border-radius: 15px;
+/* 	margin: 0.2rem;
+ */`
 export const ImgM = styled.img`
 	width: 100px;
 	min-height: 40px;
@@ -71,11 +71,12 @@ export const ImgM = styled.img`
 	transform: rotate(-20deg) scale(0.7) translateX(-350%) translateY(-150px);
 `
 export const ImgD = styled.img`
+	border-radius: 10px 10px 0 0;
 	width: 100%;
 	height: 100%;
 	max-height: 40%;
-	box-shadow: 8px 8px 15px;
-`
+/* 	box-shadow: 8px 8px 15px;
+ */`
 export const Detail = styled.a`
 	background: rgba(0, 0, 0, 0.8);
 	flex: 1 0 1px;

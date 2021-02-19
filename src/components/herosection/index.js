@@ -12,12 +12,7 @@ function HeroSection() {
 	return (
 		<>
 			<HeroContainer id="home">
-				<HeroWrapper>
-					<HeroHeader>Welcome</HeroHeader>
-					<HeroTitle className="box">I'm Fernando A F Hickman</HeroTitle>
-					<HeroDesc>Graduated as a Software Engineer.</HeroDesc>
-					<HeroDesc>Experienced in Front-End Web Development.</HeroDesc>
-					<HeroPic>
+				<HeroWrapper><HeroPic>
 						<img
 							src="/images/prof.jpg"
 							id="profile"
@@ -28,6 +23,11 @@ function HeroSection() {
 							alt="profile pic"
 						/>
 					</HeroPic>
+					<HeroHeader>Welcome</HeroHeader>
+					<HeroTitle className="box">I'm Fernando A F Hickman</HeroTitle>
+					<HeroDesc>Graduated as a Software Engineer.</HeroDesc>
+					<HeroDesc>Experienced in Front-End Web Development.</HeroDesc>
+					
 				</HeroWrapper>
 			</HeroContainer>
 		</>
