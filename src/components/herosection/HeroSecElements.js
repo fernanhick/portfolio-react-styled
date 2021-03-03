@@ -1,18 +1,18 @@
 import styled from "styled-components"
 
 export const HeroContainer = styled.section`
-	padding: 6em 1em 1em;
+	padding: 1rem;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	height:100vh;
+	height: 100vh;
 `
 export const HeroWrapper = styled.div`
 	max-width: 800px;
 	cursor: alias;
 	padding: 2em;
-	margin: 10px auto;
-	display: flex;
+/* 	margin: 10px auto;
+ */	display: flex;
 	flex-wrap: wrap;
 	background-color: rgba(0, 0, 0, 0.4);
 	z-index: 1;
@@ -34,15 +34,17 @@ export const HeroPic = styled.nav`
 export const HeroHeader = styled.h2`
 	margin: 1rem auto;
 	filter: drop-shadow(1px 3.5px 1px black);
-/* 	min-width: 100%;
- */	text-align: center;
+	/* 	min-width: 100%;
+ */
+	text-align: center;
 	font-size: 2.5rem;
 	color: white;
 `
 export const HeroTitle = styled.h1`
 	font-size: 2rem;
-/* 	min-width: 100%;
- */	color: white;
+	/* 	min-width: 100%;
+ */
+	color: white;
 	filter: drop-shadow(1px 3.5px 1px black);
 	margin-bottom: 1.5em;
 `

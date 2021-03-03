@@ -3,7 +3,7 @@ import { Link as LinkS } from "react-scroll"
 import { Link as LinkR } from "react-router-dom"
 import { Github } from "@styled-icons/entypo-social/Github"
 export const NavbarContainer = styled.nav`
-	position: absolute;
+	position: fixed;
 	color: white;
 	width: 100%;
 	min-height: 3em;
@@ -18,7 +18,7 @@ export const NavbarContainer = styled.nav`
 	flex-wrap: wrap;
 	z-index: 999;
 	box-shadow: 0 0 15px;
-	margin-bottom: 10px;
+=	margin-bottom: 10px;
 	box-shadow: inset 0 -5px 5px -3px black;
 `
 

@@ -18,40 +18,34 @@ import {
 const Projects = () => {
 	return (
 		<>
-				{projectsList.map((data, key) => {
-					return (
-						
-						<PWrap>
-							<ProjectCont key={key}>
-								{/* {data.dev === "true" ? (
+			{projectsList.map((data, key) => {
+				console.log(key)
+
+				return (
+					<PWrap key={key}>
+						<ProjectCont >
+							<ProjectImg>
+								<ImgD src={data.imgDesktop} alt={data.alt} />
+							</ProjectImg>
+							<Detail href={data.git}>
+								{data.dev === "true" ? (
 									<Mark style={{ background: "green" }}>Working</Mark>
 								) : (
-									<Mark style={{ background: "darkorange" }}>Developing</Mark>
-								)} */}
-								<ProjectImg>
-									<ImgD src={data.imgDesktop} alt={data.alt} />
-									{/* 								<ImgM src={data.imgMobile} alt={data.alt} />
-									 */}{" "}
-								</ProjectImg>
-								<Detail href={data.git}>
-									{data.dev === "true" ? (
-									<Mark style={{ background: "green" }}>Working</Mark>
-								) : (
-									<Mark style={{ background: "orangeRed" }}>Developing</Mark>
+									<Mark style={{ background: "orange" }}>Developing</Mark>
 								)}
-									<Topline>{data.topLine}</Topline>
-									<Heading>{data.headLine}</Heading>
-									<DescWrap>
-										<Decription>{data.description}</Decription>
-										<DevTools>
-											<p>{data.languages}</p>
-										</DevTools>
-									</DescWrap>
-								</Detail>
-							</ProjectCont>
-						</PWrap>
-					)
-				})}
+								<Topline>{data.topLine}</Topline>
+								<Heading>{data.headLine}</Heading>
+								<DescWrap>
+									<Decription>{data.description}</Decription>
+									<DevTools>
+										<p>{data.languages}</p>
+									</DevTools>
+								</DescWrap>
+							</Detail>
+						</ProjectCont>
+					</PWrap>
+				)
+			})}
 		</>
 	)
 }

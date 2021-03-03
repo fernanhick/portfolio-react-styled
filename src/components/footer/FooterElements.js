@@ -4,7 +4,7 @@ import { Link } from "react-router-dom"
 export const FooterContainer = styled.footer`
 	background: rgb(255, 124, 42);
 	background: linear-gradient(
-		158deg,
+		20deg,
 		rgba(255, 94, 2, 1) 23%,
 		rgba(233, 213, 47, 1) 68%,
 		/* 	rgba(72, 212, 58, 1) 41%,

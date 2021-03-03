@@ -15,7 +15,15 @@ function Navbar() {
 	return (
 		<NavbarContainer>
 			<LogoCont>
-				<LogoLink>FernandoAFH</LogoLink>
+				<LogoLink
+					to="home"
+					smooth={true}
+					dureation={500}
+					spy={true}
+					exact="true"
+				>
+					FernandoAFH
+				</LogoLink>
 			</LogoCont>
 			<MenuCont>
 				<MenuItem>
