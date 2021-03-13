@@ -29,8 +29,8 @@ export const ProjectCont = styled.div`
 	justify-content: center;
 	align-items: center;
 	margin: 5px;
-	cursor: pointer;
-	background: rgba(255, 255, 255, 0.8);
+/* 	cursor: pointer;
+ */	background: rgba(255, 255, 255, 0.8);
 	display: flex;
 	flex-wrap: wrap;
 	flex: 1 1 1px;

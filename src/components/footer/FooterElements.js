@@ -65,7 +65,7 @@ export const FooterLink = styled(Link)`
 	margin-bottom: 0.5rem;
 
 	&:hover {
-		color: var(--secondary);
+		color: black;
 		transition: 0.3s ease-out;
 	}
 `
@@ -110,7 +110,10 @@ export const SocialIcons = styled.div`
 	width: 240px;
 `
 
-export const SocialIconLink = styled(Link)`
+export const SocialIconLink = styled.a`
 	font-size: 24px;
 	color: white;
+	&:hover {
+		color: black;
+	}
 `

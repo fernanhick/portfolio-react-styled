@@ -10,7 +10,7 @@ import {
 	NavIcon,
 	GitLogo,
 } from "./NavbarElements"
-
+import { CgMenuGridR  } from 'react-icons/cg'
 function Navbar() {
 	return (
 		<NavbarContainer>
@@ -61,9 +61,7 @@ function Navbar() {
 				</MenuItem>
 			</MenuCont>
 			<NavIconCont>
-				<NavIcon href="https://github.com/fernanhick">
-					<GitLogo />
-				</NavIcon>
+				<CgMenuGridR />
 			</NavIconCont>
 		</NavbarContainer>
 	)

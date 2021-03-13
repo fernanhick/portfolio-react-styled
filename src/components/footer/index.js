@@ -1,6 +1,7 @@
 import React from "react"
 import {
 	FaFacebook,
+	FaGithub,
 	FaInstagram,
 	FaLinkedin,
 	FaTwitter,
@@ -36,28 +37,43 @@ function Footer() {
 							</SocialLogo>
 							<WebsiteRights>
 								<small>
-									&copy; Copyright {new Date().getFullYear()}, TechFer Corporation
+									&copy; Copyright {new Date().getFullYear()}, TechFer
+									Corporation
 								</small>
-								
 							</WebsiteRights>
 							<SocialIcons>
 								<SocialIconLink
-									to="/home"
+									href="https://github.com/fernanhick"
+									target="_blank"
+									aria-label="Github"
+								>
+									<FaGithub />
+								</SocialIconLink>{" "}
+								<SocialIconLink
+									href="https://www.facebook.com/fernando.fhickman/"
 									target="_blank"
 									aria-label="Facebook"
 								>
 									<FaFacebook />
 								</SocialIconLink>
-								<SocialIconLink to="/#" target="_blank" aria-label="Instagram">
+								<SocialIconLink
+									href="https://www.instagram.com/fernan.hick/"
+									target="_blank"
+									aria-label="Instagram"
+								>
 									<FaInstagram />
 								</SocialIconLink>
-								<SocialIconLink to="/#" target="_blank" aria-label="Youtube">
-									<FaYoutube />
-								</SocialIconLink>
-								<SocialIconLink to="/#" target="_blank" aria-label="Twitter">
+								<SocialIconLink
+									href="https://twitter.com/FernanHickman"
+									target="_blank"
+									aria-label="Twitter"
+								>
 									<FaTwitter />
 								</SocialIconLink>
-								<SocialIconLink to="/#" target="_blank" aria-label="Linkedin">
+								<SocialIconLink
+									href="https://www.linkedin.com/in/fernando-f-hickman-77882496/"
+									aria-label="Linkedin"
+								>
 									<FaLinkedin />
 								</SocialIconLink>
 							</SocialIcons>
