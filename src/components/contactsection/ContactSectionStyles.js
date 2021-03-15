@@ -3,6 +3,7 @@ import styled from "styled-components"
 export const ContactCont = styled.section`
 	height: 100vh;
 	display: flex;
+	flex-direction: column;
 	align-items: center;
 	justify-content: center;
 	padding: 0 1rem;
@@ -29,7 +30,7 @@ export const ContactForm = styled.div`
 	box-shadow: 0 0 17px 1px black;
 `
 export const CFHeader = styled.h1`
-/* 	writing-mode: vertical-lr;
+	/* 	writing-mode: vertical-lr;
 	text-orientation: mixed; */
 `
 export const ContFormFields = styled.form`

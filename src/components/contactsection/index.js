@@ -18,9 +18,7 @@ function ContactSection() {
 	return (
 		<>
 			<ContactCont>
-				<ContactUs />
-
-				{/* <ContactForm>
+				<ContactForm>
 					<CFHeader>Contact Me</CFHeader>
 					<ContFormFields>
 						<CLableWrap>
@@ -33,7 +31,8 @@ function ContactSection() {
 						</CFormContent>
 					</ContFormFields>
 					<ContactFormImg />
-				</ContactForm> */}
+				</ContactForm>
+				<ContactUs />
 			</ContactCont>
 		</>
 	)
