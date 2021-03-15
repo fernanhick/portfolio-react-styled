@@ -1,4 +1,5 @@
 import React from "react"
+import ContactUs from "./ContactMail"
 import {
 	CEmail,
 	CFInput,
@@ -17,12 +18,14 @@ function ContactSection() {
 	return (
 		<>
 			<ContactCont>
-				<ContactForm>
+				<ContactUs />
+
+				{/* <ContactForm>
 					<CFHeader>Contact Me</CFHeader>
 					<ContFormFields>
 						<CLableWrap>
-							<CName placeholder="Name" />
-							<CEmail placeholder="Email" />
+							<CName placeholder="Name" name="user_name" type="text" />
+							<CEmail placeholder="Email" name="user_mail" type="text" />
 						</CLableWrap>
 						<CFormContent>
 							<CFInput></CFInput>
@@ -30,7 +33,7 @@ function ContactSection() {
 						</CFormContent>
 					</ContFormFields>
 					<ContactFormImg />
-				</ContactForm>
+				</ContactForm> */}
 			</ContactCont>
 		</>
 	)

@@ -44,7 +44,6 @@ export const LogoCont = styled.div`
 export const NavIconCont = styled.div`
 	cursor: pointer;
 	display: flex;
-	width: 2em;
 	justify-content: center;
 	align-items: center;
 	margin-right: 1em;
